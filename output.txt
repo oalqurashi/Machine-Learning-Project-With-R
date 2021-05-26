@@ -1,0 +1,339 @@
+> source("source_code.txt")
+[1] "-----------------= Students' Info =--------------------"
+[1] "Names:"
+[1] "- Omar Alqurashi    , ID: 1742589"
+[1] "- Mohammed Alzahrani, ID: 1740166"
+[1] "- Mohammed Alharbi  , ID: 1740373"
+[1] "2020-12-08 18:35:57 +03"
+[1] "2020-12-08"
+[1] "========================Start=========================="
+[1] "---------------------Preparation-----------------------"
+[1] "Glass Dimensions:"
+[1] 214  10
+[1] "Spambase Dimensions:"
+[1] 4597   58
+[1] "Twonorm Dimensions:"
+[1] 7400   21
+[1] "Vehicle Dimensions:"
+[1] 846  19
+[1] "================Oversampling==============="
+[1] "-------------------before------------------"
+[1] "Num. Records in Glass Dataset Labeled as 'positive':"
+[1] 70
+[1] "Num. Records in Glass Dataset Labeled as 'negative':"
+[1] 144
+[1] "Num. Records in Vehicle Dataset Labeled as 'positive':"
+[1] 199
+[1] "Num. Records in Vehicle Dataset Labeled as 'negative':"
+[1] 647
+[1] "-------------------after-------------------"
+[1] "Num. Records in Glass Dataset Labeled as 'positive':"
+[1] 210
+[1] "Num. Records in Glass Dataset Labeled as 'negative':"
+[1] 144
+[1] "Num. Records in Vehicle Dataset Labeled as 'positive':"
+[1] 597
+[1] "Num. Records in Vehicle Dataset Labeled as 'negative':"
+[1] 647
+[1] "=============Oversampling End============"
+[1] ""
+[1] "==== Start 5-Folds Cross-Validation ===="
+[1] ""
+[1] "_______________ i = 1 ________________"
+[1] "============= Training... ============"
+[1]	train-error:0.397887 
+[2]	train-error:0.084507 
+[3]	train-error:0.038732 
+[4]	train-error:0.038732 
+[5]	train-error:0.038732 
+[1]	train-error:0.601849 
+[2]	train-error:0.087571 
+[3]	train-error:0.081044 
+[4]	train-error:0.064455 
+[5]	train-error:0.057656 
+[1]	train-error:0.501858 
+[2]	train-error:0.208277 
+[3]	train-error:0.103716 
+[4]	train-error:0.075507 
+[5]	train-error:0.057432 
+[1]	train-error:0.523618 
+[2]	train-error:0.052261 
+[3]	train-error:0.033166 
+[4]	train-error:0.033166 
+[5]	train-error:0.017085 
+[1] "---------- XGBoost Trained -----------"
+[1] "------------ SVM Trained -------------"
+[1] "------ Random Forests Trained --------"
+[1] "--------- AdaBoost Trained -----------"
+[1] "============= Testing... ============="
+[1] "---------- XGBoost Tested ------------"
+[1] "------------- SVM Tested -------------"
+[1] "----- Random Forests Tested ----------"
+[1] "--------- AdaBoost Tested ------------"
+[1] ""
+[1] "_______________ i = 2 ________________"
+[1] "============= Training... ============"
+[1]	train-error:0.407801 
+[2]	train-error:0.078014 
+[3]	train-error:0.056738 
+[4]	train-error:0.056738 
+[5]	train-error:0.056738 
+[1]	train-error:0.607017 
+[2]	train-error:0.164264 
+[3]	train-error:0.069350 
+[4]	train-error:0.048409 
+[5]	train-error:0.046777 
+[1]	train-error:0.494595 
+[2]	train-error:0.226689 
+[3]	train-error:0.110135 
+[4]	train-error:0.081926 
+[5]	train-error:0.055405 
+[1]	train-error:0.520080 
+[2]	train-error:0.040161 
+[3]	train-error:0.017068 
+[4]	train-error:0.017068 
+[5]	train-error:0.016064 
+[1] "---------- XGBoost Trained -----------"
+[1] "------------ SVM Trained -------------"
+[1] "------ Random Forests Trained --------"
+[1] "--------- AdaBoost Trained -----------"
+[1] "============= Testing... ============="
+[1] "---------- XGBoost Tested ------------"
+[1] "------------- SVM Tested -------------"
+[1] "----- Random Forests Tested ----------"
+[1] "--------- AdaBoost Tested ------------"
+[1] ""
+[1] "_______________ i = 3 ________________"
+[1] "============= Training... ============"
+[1]	train-error:0.415493 
+[2]	train-error:0.080986 
+[3]	train-error:0.042254 
+[4]	train-error:0.042254 
+[5]	train-error:0.035211 
+[1]	train-error:0.610114 
+[2]	train-error:0.107667 
+[3]	train-error:0.065797 
+[4]	train-error:0.053834 
+[5]	train-error:0.052202 
+[1]	train-error:0.504054 
+[2]	train-error:0.226858 
+[3]	train-error:0.120101 
+[4]	train-error:0.084459 
+[5]	train-error:0.056588 
+[1]	train-error:0.526633 
+[2]	train-error:0.040201 
+[3]	train-error:0.032161 
+[4]	train-error:0.026131 
+[5]	train-error:0.026131 
+[1] "---------- XGBoost Trained -----------"
+[1] "------------ SVM Trained -------------"
+[1] "------ Random Forests Trained --------"
+[1] "--------- AdaBoost Trained -----------"
+[1] "============= Testing... ============="
+[1] "---------- XGBoost Tested ------------"
+[1] "------------- SVM Tested -------------"
+[1] "----- Random Forests Tested ----------"
+[1] "--------- AdaBoost Tested ------------"
+[1] ""
+[1] "_______________ i = 4 ________________"
+[1] "============= Training... ============"
+[1]	train-error:0.406360 
+[2]	train-error:0.084806 
+[3]	train-error:0.028269 
+[4]	train-error:0.028269 
+[5]	train-error:0.028269 
+[1]	train-error:0.606745 
+[2]	train-error:0.122926 
+[3]	train-error:0.061463 
+[4]	train-error:0.062823 
+[5]	train-error:0.049497 
+[1]	train-error:0.501351 
+[2]	train-error:0.181081 
+[3]	train-error:0.109797 
+[4]	train-error:0.076351 
+[5]	train-error:0.051182 
+[1]	train-error:0.511558 
+[2]	train-error:0.038191 
+[3]	train-error:0.029146 
+[4]	train-error:0.027136 
+[5]	train-error:0.024121 
+[1] "---------- XGBoost Trained -----------"
+[1] "------------ SVM Trained -------------"
+[1] "------ Random Forests Trained --------"
+[1] "--------- AdaBoost Trained -----------"
+[1] "============= Testing... ============="
+[1] "---------- XGBoost Tested ------------"
+[1] "------------- SVM Tested -------------"
+[1] "----- Random Forests Tested ----------"
+[1] "--------- AdaBoost Tested ------------"
+[1] ""
+[1] "_______________ i = 5 ________________"
+[1] "============= Training... ============"
+[1]	train-error:0.406360 
+[2]	train-error:0.063604 
+[3]	train-error:0.045936 
+[4]	train-error:0.045936 
+[5]	train-error:0.045936 
+[1]	train-error:0.603425 
+[2]	train-error:0.101386 
+[3]	train-error:0.063876 
+[4]	train-error:0.060342 
+[5]	train-error:0.050829 
+[1]	train-error:0.500169 
+[2]	train-error:0.196115 
+[3]	train-error:0.106250 
+[4]	train-error:0.081419 
+[5]	train-error:0.055574 
+[1]	train-error:0.518593 
+[2]	train-error:0.039196 
+[3]	train-error:0.028141 
+[4]	train-error:0.028141 
+[5]	train-error:0.025126 
+[1] "---------- XGBoost Trained -----------"
+[1] "------------ SVM Trained -------------"
+[1] "------ Random Forests Trained --------"
+[1] "--------- AdaBoost Trained -----------"
+[1] "============= Testing... ============="
+[1] "---------- XGBoost Tested ------------"
+[1] "------------- SVM Tested -------------"
+[1] "----- Random Forests Tested ----------"
+[1] "--------- AdaBoost Tested ------------"
+[1] ""
+[1] "---------Calculations of Performance Measures----------"
+[1] "------------------------XGBoost------------------------"
+[1] "glass0:"
+[1] "MACC = 0.867510, SD = 0.037816"
+[1] "MBAC = 0.841975, SD = 0.043177"
+[1] "MF1  = 0.897450, SD = 0.027898"
+[1] "spambase:"
+[1] "MACC = 0.917986, SD = 0.009063"
+[1] "MBAC = 0.913859, SD = 0.010678"
+[1] "MF1  = 0.895769, SD = 0.010239"
+[1] "twonorm:"
+[1] "MACC = 0.866892, SD = 0.012559"
+[1] "MBAC = 0.866909, SD = 0.013746"
+[1] "MF1  = 0.875943, SD = 0.009554"
+[1] "vehicle0:"
+[1] "MACC = 0.951772, SD = 0.012034"
+[1] "MBAC = 0.952784, SD = 0.011698"
+[1] "MF1  = 0.950967, SD = 0.013170"
+[1] "--------------------------SVM--------------------------"
+[1] "glass0:"
+[1] "MACC = 0.793985, SD = 0.025447"
+[1] "MBAC = 0.748751, SD = 0.029246"
+[1] "MF1  = 0.850736, SD = 0.018178"
+[1] "spambase:"
+[1] "MACC = 0.835097, SD = 0.017753"
+[1] "MBAC = 0.830275, SD = 0.016858"
+[1] "MF1  = 0.794183, SD = 0.019549"
+[1] "twonorm:"
+[1] "MACC = 0.976892, SD = 0.002210"
+[1] "MBAC = 0.976899, SD = 0.002309"
+[1] "MF1  = 0.976774, SD = 0.002732"
+[1] "vehicle0:"
+[1] "MACC = 0.856866, SD = 0.033181"
+[1] "MBAC = 0.850798, SD = 0.034293"
+[1] "MF1  = 0.823020, SD = 0.050052"
+[1] "-------------------Random Forests----------------------"
+[1] "glass0:"
+[1] "MACC = 0.918262, SD = 0.024626"
+[1] "MBAC = 0.905366, SD = 0.025299"
+[1] "MF1  = 0.933773, SD = 0.020438"
+[1] "spambase:"
+[1] "MACC = 0.952355, SD = 0.010442"
+[1] "MBAC = 0.947042, SD = 0.011490"
+[1] "MF1  = 0.938572, SD = 0.013464"
+[1] "twonorm:"
+[1] "MACC = 0.973784, SD = 0.004835"
+[1] "MBAC = 0.973791, SD = 0.004873"
+[1] "MF1  = 0.973652, SD = 0.005422"
+[1] "vehicle0:"
+[1] "MACC = 0.981503, SD = 0.008361"
+[1] "MBAC = 0.982065, SD = 0.008377"
+[1] "MF1  = 0.981011, SD = 0.008505"
+[1] "-----------------------AdaBoost------------------------"
+[1] "glass0:"
+[1] "MACC = 0.932349, SD = 0.024870"
+[1] "MBAC = 0.922052, SD = 0.024854"
+[1] "MF1  = 0.944633, SD = 0.020770"
+[1] "spambase:"
+[1] "MACC = 0.945616, SD = 0.010235"
+[1] "MBAC = 0.942116, SD = 0.011332"
+[1] "MF1  = 0.930588, SD = 0.013297"
+[1] "twonorm:"
+[1] "MACC = 0.969054, SD = 0.003651"
+[1] "MBAC = 0.969028, SD = 0.003775"
+[1] "MF1  = 0.968890, SD = 0.004484"
+[1] "vehicle0:"
+[1] "MACC = 0.989539, SD = 0.009706"
+[1] "MBAC = 0.989593, SD = 0.009928"
+[1] "MF1  = 0.989195, SD = 0.010036"
+[1] "============= Cross-Validation Finished ==============="
+[1] ""
+[1] "================= Statistical Tests ==================="
+[1] "------------------------MACC---------------------------"
+$summary
+       XGBoost       SVM RandomForests  AdaBoost
+[1,] 0.9010398 0.8657101     0.9564761 0.9591393
+
+$raw.pval
+                XGBoost       SVM RandomForests  AdaBoost
+XGBoost              NA 1.0000000     0.1003482 0.1003482
+SVM           1.0000000        NA     0.1003482 0.1003482
+RandomForests 0.1003482 0.1003482            NA 1.0000000
+AdaBoost      0.1003482 0.1003482     1.0000000        NA
+
+$corrected.pval
+                XGBoost       SVM RandomForests  AdaBoost
+XGBoost              NA 1.0000000     0.6020895 0.6020895
+SVM           1.0000000        NA     0.6020895 0.6020895
+RandomForests 0.6020895 0.6020895            NA 1.0000000
+AdaBoost      0.6020895 0.6020895     1.0000000        NA
+
+[1] "------------------------MBAC---------------------------"
+$summary
+       XGBoost       SVM RandomForests  AdaBoost
+[1,] 0.8938818 0.8516807     0.9520658 0.9556972
+
+$raw.pval
+                XGBoost       SVM RandomForests  AdaBoost
+XGBoost              NA 1.0000000     0.1003482 0.1003482
+SVM           1.0000000        NA     0.1003482 0.1003482
+RandomForests 0.1003482 0.1003482            NA 1.0000000
+AdaBoost      0.1003482 0.1003482     1.0000000        NA
+
+$corrected.pval
+                XGBoost       SVM RandomForests  AdaBoost
+XGBoost              NA 1.0000000     0.6020895 0.6020895
+SVM           1.0000000        NA     0.6020895 0.6020895
+RandomForests 0.6020895 0.6020895            NA 1.0000000
+AdaBoost      0.6020895 0.6020895     1.0000000        NA
+
+[1] "-------------------------MF1---------------------------"
+$summary
+       XGBoost       SVM RandomForests  AdaBoost
+[1,] 0.9050322 0.8611782     0.9567521 0.9583262
+
+$raw.pval
+                XGBoost       SVM RandomForests  AdaBoost
+XGBoost              NA 1.0000000     0.1003482 0.1003482
+SVM           1.0000000        NA     0.1003482 0.1003482
+RandomForests 0.1003482 0.1003482            NA 1.0000000
+AdaBoost      0.1003482 0.1003482     1.0000000        NA
+
+$corrected.pval
+                XGBoost       SVM RandomForests  AdaBoost
+XGBoost              NA 1.0000000     0.6020895 0.6020895
+SVM           1.0000000        NA     0.6020895 0.6020895
+RandomForests 0.6020895 0.6020895            NA 1.0000000
+AdaBoost      0.6020895 0.6020895     1.0000000        NA
+
+[1] "=========================END==========================="
+[1] "-----------------= Students' Info =--------------------"
+[1] "Names:"
+[1] "- Omar Alqurashi    , ID: 1742589"
+[1] "- Mohammed Alzahrani, ID: 1740166"
+[1] "- Mohammed Alharbi  , ID: 1740373"
+[1] "2020-12-08 18:38:14 +03"
+[1] "2020-12-08"
+> 
