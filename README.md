@@ -12,3 +12,6 @@ https://sci2s.ugr.es/keel/dataset/data/imbalanced/vehicle0.zip
 https://sci2s.ugr.es/keel/dataset/data/classification/spambase.zip
 
 https://sci2s.ugr.es/keel/dataset/data/classification/twonorm.zip
+
+
+__(Note: This project is part of the CPCS-433 course i.e. Artificial Intelligence Topics, at King Abdulaziz University)__
